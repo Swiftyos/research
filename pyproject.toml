@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "rnd"
+version = "0.1.0"
+description = ""
+authors = ["SwiftyOS <craigswift13@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+torch = "^2.0.1"
+pyro-ppl = "^1.8.6"
+diffusers = "^0.21.2"
+invisible-watermark = "^0.2.0"
+accelerate = "^0.23.0"
+safetensors = "^0.3.3"
+datasets = "^2.14.5"
+evaluate = "^0.4.0"
+seaborn = "^0.12.2"
+torchvision = "^0.15.2"
+torchaudio = "^2.0.2"
+litellm = "^0.1.743"
+together = "^0.2.4"
+transformers = "^4.33.2"
+ipython = "^8.15.0"
+weaviate-client = "^3.24.1"
+opencv-python = "^4.8.1.78"
+tensorboard = "^2.14.1"
+tensorflow = "^2.14.0"
+polars = {extras = ["fsspec", "numpy"], version = "^0.19.6"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
