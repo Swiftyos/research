@@ -27,6 +27,7 @@ opencv-python = "^4.8.1.78"
 tensorboard = "^2.14.1"
 tensorflow = "^2.14.0"
 polars = {extras = ["fsspec", "numpy"], version = "^0.19.6"}
+black = "^23.9.1"
 
 
 [build-system]
